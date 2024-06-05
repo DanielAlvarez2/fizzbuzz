@@ -4,11 +4,13 @@ but print “Fizz” if an integer is divisible by three, <br>
 “Buzz” if an integer is divisible by five, <br>
 and “FizzBuzz” if an integer is divisible by <br>
 both three and five.<br><br><br>
-*/
+
 
 <script>
     function fizzbuzz(n){
-        document.write(n)
+        for(i=1;i<=n;i++){
+            document.write(i + '<br>')
+        }
     }
     fizzbuzz(10)
 </script>
